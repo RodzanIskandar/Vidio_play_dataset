@@ -78,6 +78,10 @@ Here is some facts and insights from the data, for complete analysis data please
 4. Bitrate tends to be good at app in android and smart tv version, but even with the good average bitrate, in tv-android buffer duration is still longer.
 5. Most play are in embed (not direct) with less play duration, play by non premium users coming from some refferers and campaigns. It shows there are still many opportunities to attract non-premium users to become premium users. Whereas premium users tend to be play longer duration coming from organic traffic.
 
+## Feature Importances using Random Forest Classifier
+I analyzed some features (columns) that have the biggest impact to the 'is_premium' column whether the users is premium  or non premium using one of most popular algorithm, Random Forest Classifier. The result shows whether the vidio content is interesting, boring, good rating or bad rating and advertisement in Vidio player determines the user will premium or not, it shows by 'title' and 'has_ad' as top 2 of feature importances in Random Forest Classifier algorithm.
+![](https://github.com/RodzanIskandar/Vidio_stream_dataset/blob/main/images/feature%20importance.png)
+
 ## Recommendation system
 I am using collaborative filtering method to build recommendation system, here soem steps using K-Nearest Neighbors:
 1. Filter data with only premium user and completed play.
