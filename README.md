@@ -1,4 +1,4 @@
-# Vidio.com stream dataset
+# Vidio.com play dataset
 
 ## Overview
 I am analyzing and build recommendation engine using real Vidio.com play dataset from 1 february 2020 to 16 february 2020. One of insights from the analytis is most play are 
